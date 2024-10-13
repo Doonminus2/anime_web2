@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Apothecary Diaries</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       body {
@@ -37,8 +41,21 @@
     </style>
   </head>
   <body class="bg-gray-100">
-    <header class="bg-blue-600 p-4 text-white text-center">
-      <h1 class="text-3xl font-bold">The Apothecary Diaries</h1>
+    <header
+      class="bg-gradient-to-r from-purple-500 to-blue-500 p-6 text-white shadow-lg"
+    >
+      <div class="container mx-auto flex items-center justify-between">
+        <h1 class="text-4xl font-extrabold">The Apothecary Diaries</h1>
+        <div class="space-x-1">
+          <a
+            href="https://github.com/Doonminus2"
+            target="_blank"
+            class="text-white"
+          >
+            <i class="fab fa-github text-xl"></i>
+          </a>
+        </div>
+      </div>
     </header>
 
     <div class="container mx-auto p-4">
@@ -54,32 +71,24 @@
           <div class="mt-6">
             <h2 class="text-2xl font-bold">The Apothecary Diaries</h2>
             <ul class="mt-2">
-              <li><strong>Genre:</strong>Drama, Mystery</li>
-              <li><strong>Episodes:</strong> 24</li>
+              <li><strong>เเนว:</strong>ดราม่า</li>
+              <li><strong>ตอน:</strong> 24</li>
               <li><strong>Studio:</strong> OLM, TOHO animation STUDIO</li>
-              <li><strong>Release Year:</strong>all 2023</li>
+              <li><strong>ปีที่ออกฉาย:</strong> 2023</li>
             </ul>
           </div>
         </div>
 
         <!-- Synopsis Section -->
         <div class="mt-6">
-          <h3 class="section-header text-xl">Synopsis</h3>
+          <h3 class="section-header text-xl">เรื่องย่อ</h3>
           <p class="text-gray-700 mt-2">
-            Maomao, an apothecary's daughter, has been plucked from her peaceful
-            life and sold to the lowest echelons of the imperial court. Now
-            merely a maid, Maomao settles into her new mundane life and hides
-            her extensive knowledge of medicine in order to avoid any unwanted
-            attention. Not long after Maomao's arrival, the emperor's infant
-            children inexplicably begin to experience grave symptoms—almost as
-            if a curse has been cast. The curious Maomao easily solves the
-            mystery and, to remain out of the limelight, attempts to leave an
-            anonymous tip. Unfortunately, the dashing and perceptive eunuch
-            Jinshi sees through it and manages to single her out. In recognition
-            of her talent, Maomao is promoted to lady-in-waiting for the
-            emperor's favorite concubine, Gyokuyou. As Maomao continues to
-            remedy the numerous ailments afflicting the imperial court, her
-            pharmaceutical expertise quickly proves indispensable.
+            เมาเมา สาวน้อยหมอยาที่อาศัยอยู่ในย่านโคมแดง
+            ถูกลักพาตัวไปเป็นสาวใช้ในวังหลัง
+            ที่ซึ่งมีข่าวลือเรื่องคำสาปทำให้เชื้อพระวงศ์เสียชีวิตอย่างปริศนา
+            ด้วยความรู้เรื่องยา เมาเมอะแอบช่วยเหลือพระสนมอย่างลับ ๆ
+            จนกระทั่งพระสนมองค์โปรดของราชารู้ความลับและให้เธอมาเป็นผู้ทดสอบพิษ
+            เมาเมาใช้ความฉลาดคลี่คลายปริศนาต่าง ๆ ในวังอย่างน่าติดตาม
           </p>
         </div>
 
@@ -100,7 +109,7 @@
 
         <!-- Characters Section -->
         <div class="mt-6">
-          <h3 class="section-header text-xl">Characters</h3>
+          <h3 class="section-header text-xl">ตัวละคร</h3>
           <div class="grid grid-cols-2 gap-4 mt-4">
             <!-- Character 1: Conan Edogawa -->
             <div class="bg-gray-200 p-4 rounded-lg text-center">
@@ -112,11 +121,7 @@
               <h4 class="font-bold text-lg">MaoMAO</h4>
               <p class="text-gray-700 mt-2">Information</p>
               <p class="text-sm text-gray-600">
-                Maomao became a maidservant to the Emperor's harem after being
-                kidnapped and sold. She used to live with her father as a
-                pharmacist in the red light district and is very knowledgeable
-                about medicine and poisons but isn't very interested in other
-                humans.
+                เมาเมา อายุ 17 ปี สูง 153 ซม. เกิดวันที่ 14 มีนาคม
               </p>
             </div>
 
@@ -130,12 +135,8 @@
               <h4 class="font-bold text-lg">Jinshi</h4>
               <p class="text-gray-700 mt-2">Information</p>
               <p class="text-sm text-gray-600">
-                Jinshi is the deuteragonist of Kusuriya no Hitorigoto. He
-                appears to be beautiful eunuch who was placed in charge of the
-                inner palace and often requests for Maomao to solve mysteries in
-                the palace in exchange for rare medicines. He finds Maomao's
-                apathy toward him refreshing and amusing. Later, his childish
-                curiosity evolves into a one-sided romantic affection.
+                จินซีเป็นบุตรคนโตของจักรพรรดิองค์ปัจจุบัน
+                และเป็นบุตรคนเดียวของเขากับนางอาตัว
               </p>
             </div>
           </div>
@@ -154,8 +155,53 @@
     </div>
 
     <!-- Footer -->
-    <footer class="bg-blue-600 p-4 text-white text-center mt-6">
-      <p>&copy; 2024 Anime Page. All rights reserved.</p>
+   <footer class="bg-gray-800 p-6 text-gray-300">
+      <div
+        class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-left"
+      >
+        <!-- Column 1: About Section -->
+        <div>
+          <h2 class="text-xl font-bold text-white mb-2">About Us</h2>
+          <p>
+            แพลตฟอร์มสำหรับผู้ที่ชื่นชอบอนิเมะเเละอยากนำเสนออนิเมะที่ชื่นชอบ
+          </p>
+        </div>
+        <!-- Column 2: Useful Links -->
+        <div>
+          <h2 class="text-xl font-bold text-white mb-2">Quick Links</h2>
+          <ul>
+            <li>
+              <a href="/index.html" class="hover:text-blue-400">หน้าหลัก</a>
+            </li>
+            <li>
+              <a href="/src/onepiece.html" class="hover:text-blue-400"
+                >onepiece</a
+              >
+            </li>
+            <li>
+              <a href="/src/demonslayer.html" class="hover:text-blue-400"
+                >demonslayer</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Column 3: Contact Information -->
+        <div>
+          <h2 class="text-xl font-bold text-white mb-2">Contact Us</h2>
+          <div class="space-x-1">
+            <a
+              href="https://github.com/Doonminus2"
+              target="_blank"
+              class="text-white"
+            >
+              <i class="fab fa-github text-xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-6 text-center text-gray-500 text-sm">
+        <p>&copy; 2024 Anime Page. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>

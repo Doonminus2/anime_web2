@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dragonball</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       body {
@@ -37,8 +41,21 @@
     </style>
   </head>
   <body class="bg-gray-100">
-    <header class="bg-blue-600 p-4 text-white text-center">
-      <h1 class="text-3xl font-bold">Dragonball</h1>
+  <header
+      class="bg-gradient-to-r from-purple-500 to-blue-500 p-6 text-white shadow-lg"
+    >
+      <div class="container mx-auto flex items-center justify-between">
+        <h1 class="text-4xl font-extrabold">DragonBall</h1>
+        <div class="space-x-1">
+          <a
+            href="https://github.com/Doonminus2"
+            target="_blank"
+            class="text-white"
+          >
+            <i class="fab fa-github text-xl"></i>
+          </a>
+        </div>
+      </div>
     </header>
 
     <div class="container mx-auto p-4">
@@ -54,38 +71,22 @@
           <div class="mt-6">
             <h2 class="text-2xl font-bold">Dragonball</h2>
             <ul class="mt-2">
-              <li>
-                <strong>Genre:</strong> Action, Adventure, Comedy, Fantasy
-              </li>
-              <li><strong>Episodes:</strong> 153</li>
+              <li><strong>เเนว:</strong> ต่อสู้</li>
+              <li><strong>ตอน:</strong> 153</li>
               <li><strong>Studio:</strong> Toei Animation</li>
-              <li><strong>Release Year:</strong>Winter 1986</li>
+              <li><strong>ปีที่ออกฉาย:</strong> 1986</li>
             </ul>
           </div>
         </div>
 
         <!-- Synopsis Section -->
         <div class="mt-6">
-          <h3 class="section-header text-xl">Synopsis</h3>
+          <h3 class="section-header text-xl">เรื่องย่อ</h3>
           <p class="text-gray-700 mt-2">
-            Gokuu Son is a young boy who lives in the woods all alone—that is,
-            until a girl named Bulma runs into him in her search for a set of
-            magical objects called the "Dragon Balls." Since the artifacts are
-            said to grant one wish to whoever collects all seven, Bulma hopes to
-            gather them and wish for a perfect boyfriend. Gokuu happens to be in
-            possession of a dragon ball, but unfortunately for Bulma, he refuses
-            to part ways with it, so she makes him a deal: he can tag along on
-            her journey if he lets her borrow the dragon ball's power. With
-            that, the two set off on the journey of a lifetime. They don't go on
-            the journey alone. On the way, they meet the old Muten-Roshi and
-            wannabe disciple Kuririn, with whom Gokuu trains to become a
-            stronger martial artist for the upcoming World Martial Arts
-            Tournament. However, it's not all fun and games; the ability to make
-            any wish come true is a powerful one, and there are others who would
-            do much worse than just wishing for a boyfriend. To stop those who
-            would try to abuse the legendary power, they train to become
-            stronger fighters, using their newfound strength to help the people
-            around them along the way.
+            ซุนโกคูและบลูม่าออกตามหาดราก้อนบอล โดยมีเพื่อนใหม่อย่างอูลอน
+            และคู่แข่งอย่างยามุชาและปิลาฟร่วมตามหาเช่นกัน ปิลาฟเกือบขอพรสำเร็จ
+            แต่ถูกอูลอนขัดขวาง โกคูกลายเป็นลิงยักษ์ ทำลายปราสาทปิลาฟ
+            ก่อนจะกลับร่างเดิมและไปฝึกวิชากับผู้เฒ่าเต่าพร้อมคุริลินและรันจี้
           </p>
         </div>
 
@@ -106,7 +107,7 @@
 
         <!-- Characters Section -->
         <div class="mt-6">
-          <h3 class="section-header text-xl">Characters</h3>
+          <h3 class="section-header text-xl">ตัวละคร</h3>
           <div class="grid grid-cols-2 gap-4 mt-4">
             <!-- Character 1: Conan Edogawa -->
             <div class="bg-gray-200 p-4 rounded-lg text-center">
@@ -118,13 +119,10 @@
               <h4 class="font-bold text-lg">Gokuu Son</h4>
               <p class="text-gray-700 mt-2">Information</p>
               <p class="text-sm text-gray-600">
-                Originally named Kakarot, Gokuu is born a member of a race of
-                extraterrestrials called the Saiyans. Shortly following his
-                birth, Gokuu is sent from his native planet Vegeta to Earth, for
-                potential selling on the intergalactic market by destroying all
-                its life; Goku was also sent away to escape Freeza's genocide of
-                the Saiyans. Once he lands on Earth, he is adopted by an old man
-                named Gohan (who is later just called Grandpa Gohan).
+                ซุนโกคูเป็นชาวไซย่าที่ถูกส่งมาโลกและเติบโตกับปู่ซุนโกฮัง
+                ต่อมาเขาฝึกวิชากับผู้เฒ่าเต่าและออกผจญภัยตามหาดราก้อนบอล
+                โกคูพัฒนาพลังจนกลายเป็นซูเปอร์ไซย่า เพื่อปกป้องโลกจากศัตรูร้าย
+                เช่น ฟรีซเซอร์และเซลล์ เขามีนิสัยร่าเริง ใจดี และรักการต่อสู้
               </p>
             </div>
 
@@ -138,15 +136,8 @@
               <h4 class="font-bold text-lg">Bulma</h4>
               <p class="text-gray-700 mt-2">Information</p>
               <p class="text-sm text-gray-600">
-                Bulma is originally a secondary main character, but her role is
-                quickly downplayed as the series continues, even though she does
-                remain an important support character for most of the series.
-                Bulma is a direct parody of the character Xuanzang from the
-                Chinese novel Journey to the West. Even though Bulma's character
-                parodies a monk, her Japanese name "Buruma" is the brand of a
-                popular gym short worn by girls in Japan. Her re-adapted name
-                Bulma is a direct take on the word "bloomers," which was a
-                popular brand of women's underwear in the early 20th century.
+                บูลม่า เป็นลูกสาวของเจ้าของบริษัท แคปซูล คอร์เปอเรชั่น
+                ซึ่งผลิตฮอยปอล์ย แคปซูล
               </p>
             </div>
           </div>
@@ -165,8 +156,53 @@
     </div>
 
     <!-- Footer -->
-    <footer class="bg-blue-600 p-4 text-white text-center mt-6">
-      <p>&copy; 2024 Anime Page. All rights reserved.</p>
+    <footer class="bg-gray-800 p-6 text-gray-300">
+      <div
+        class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-left"
+      >
+        <!-- Column 1: About Section -->
+        <div>
+          <h2 class="text-xl font-bold text-white mb-2">About Us</h2>
+          <p>
+            แพลตฟอร์มสำหรับผู้ที่ชื่นชอบอนิเมะเเละอยากนำเสนออนิเมะที่ชื่นชอบ
+          </p>
+        </div>
+        <!-- Column 2: Useful Links -->
+        <div>
+          <h2 class="text-xl font-bold text-white mb-2">Quick Links</h2>
+          <ul>
+            <li>
+              <a href="/index.html" class="hover:text-blue-400">หน้าหลัก</a>
+            </li>
+            <li>
+              <a href="/src/onepiece.html" class="hover:text-blue-400"
+                >onepiece</a
+              >
+            </li>
+            <li>
+              <a href="/src/demonslayer.html" class="hover:text-blue-400"
+                >demonslayer</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Column 3: Contact Information -->
+        <div>
+          <h2 class="text-xl font-bold text-white mb-2">Contact Us</h2>
+          <div class="space-x-1">
+            <a
+              href="https://github.com/Doonminus2"
+              target="_blank"
+              class="text-white"
+            >
+              <i class="fab fa-github text-xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-6 text-center text-gray-500 text-sm">
+        <p>&copy; 2024 Anime Page. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>

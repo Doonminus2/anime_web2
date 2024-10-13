@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Detective Conan</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       body {
@@ -37,8 +41,21 @@
     </style>
   </head>
   <body class="bg-gray-100">
-    <header class="bg-blue-600 p-4 text-white text-center">
-      <h1 class="text-3xl font-bold">Detective Conan</h1>
+   <header
+      class="bg-gradient-to-r from-purple-500 to-blue-500 p-6 text-white shadow-lg"
+    >
+      <div class="container mx-auto flex items-center justify-between">
+        <h1 class="text-4xl font-extrabold">DetectiveConan</h1>
+        <div class="space-x-1">
+          <a
+            href="https://github.com/Doonminus2"
+            target="_blank"
+            class="text-white"
+          >
+            <i class="fab fa-github text-xl"></i>
+          </a>
+        </div>
+      </div>
     </header>
 
     <div class="container mx-auto p-4">
@@ -54,27 +71,26 @@
           <div class="mt-6">
             <h2 class="text-2xl font-bold">Detective Conan</h2>
             <ul class="mt-2">
-              <li><strong>Genre:</strong> Mystery, Detective</li>
-              <li><strong>Episodes:</strong> 1000+</li>
+              <li><strong>เเนว:</strong> สืบสวน</li>
+              <li><strong>ตอน:</strong> 1000+</li>
               <li><strong>Studio:</strong> TMS Entertainment</li>
-              <li><strong>Release Year:</strong> 1996</li>
+              <li><strong>ปีที่ออกฉาย:</strong> 1996</li>
             </ul>
           </div>
         </div>
 
         <!-- Synopsis Section -->
         <div class="mt-6">
-          <h3 class="section-header text-xl">Synopsis</h3>
+          <h3 class="section-header text-xl">เรื่องย่อ</h3>
           <p class="text-gray-700 mt-2">
-            คุโด้ ชินอิจิ นักสืบหนุ่ม นักเรียนมัธยมปลาย โรงเรียนเทย์ตัน
-            ซึ่งกำลังโด่งดังสุดขีด เพราะคลี่คลายคดียากๆมาหลายคดี
-            และได้เป็นผู้ช่วยของส.เมงูเระด้วย วันหนึ่ง ชินอิจิ
-            ได้ไปเที่ยวด้วยกันกับ โมริ รัน เพื่อนรัก
-            และเผอิญได้พบกับกลุ่มชายชุดดำท่าทางน่าสงสัย
-            ด้วยความที่เป็นคนช่างสงสัย ชินอิจิก็ได้สะกดรอยตามเขาไป
-            และก็ได้ยินเรื่องที่เขาคุยกับ แต่ทว่า ชินอิจิก็โดนชายชุดดำลอบทำร้าย
-            และโดนจับกรอกยา จนทำให้ตัวหดเล็กลงกลายเป็นเด็กอายุ 6ขวบ พอรู้สึกตัว
-            ชินอิจิก็รีบไปหาดร.อากาสะ เพื่อขอความช่วยเหลือ
+            คุโด้ ชินอิจิ นักสืบมัธยมปลายชื่อดัง
+            ถูกกลุ่มชายชุดดำลอบทำร้ายและถูกกรอกยาจนตัวหดเล็กลงกลายเป็นเด็กอายุ 6
+            ขวบ เขาขอความช่วยเหลือจากดร.อากาสะ และเปลี่ยนชื่อเป็น เอโดงาวะ โคนัน
+            จากนั้นย้ายไปอยู่ที่บ้านของรัน เพื่อสืบหาเบาะแสเกี่ยวกับชายชุดดำ
+            แต่ยังไม่มีความคืบหน้า ขณะเดียวกัน โมริ โคโกโร่
+            พ่อของรันกลับมีชื่อเสียงมากขึ้น วันหนึ่ง ไฮบาระ ไอ ปรากฏตัวขึ้น
+            เธอเป็นผู้ผลิตยา APTX 4869 และหลบหนีออกจากองค์กร
+            ชินอิจิและไฮบาระจึงต้องร่วมมือกันจัดการกับองค์กรชุดดำ
           </p>
         </div>
 
@@ -94,7 +110,7 @@
 
         <!-- Characters Section -->
         <div class="mt-6">
-          <h3 class="section-header text-xl">Characters</h3>
+          <h3 class="section-header text-xl">ตัวละคร</h3>
           <div class="grid grid-cols-2 gap-4 mt-4">
             <!-- Character 1: Conan Edogawa -->
             <div class="bg-gray-200 p-4 rounded-lg text-center">
@@ -106,11 +122,15 @@
               <h4 class="font-bold text-lg">Conan Edogawa</h4>
               <p class="text-gray-700 mt-2">Information</p>
               <p class="text-sm text-gray-600">
-                Age: 6-7 (as Conan); 17 (as Shinichi) Height: Unknown (as
-                Conan); 174 cm (as Shinichi) Weight: 18 kg (as Conan) Date of
-                Birth: May 4 Relatives: Yuusaku Kudou (father) & Yukiko Kudou
-                (mother) Nicknames: Cool Kid, Silver Bullet-kun, Glasses Kid,
-                Holmes' Apprentice.
+                เอโดงาวะ โคนัน เป็นนามแฝงของคุโด้ ชินอิจิ
+                นักสืบหนุ่มที่ถูกองค์กรลึกลับป้อนยา APTX 4869
+                ทำให้ร่างกายหดเล็กลงเป็นเด็กประถม
+                เขาใช้นามแฝงเพื่อซ่อนตัวตนและอาศัยอยู่ในสำนักงานนักสืบของโมริ
+                โคโกโร่ พ่อของรัน เพื่อไขคดีและเปิดโปงองค์กรลับ
+                แม้จะมีร่างกายเป็นเด็ก แต่โคนันยังคงมีทักษะและความคิดแบบผู้ใหญ่
+                บางครั้งการแสดงออกของเขาทำให้คนรอบข้างสงสัย
+                แต่เขามักแก้ตัวว่าได้ความรู้จากทีวีหรือจากผู้ใหญ่ ในการไขคดี
+                เขาช่างสังเกตและสามารถหนีจากสถานการณ์อันตรายได้
               </p>
             </div>
 
@@ -124,11 +144,7 @@
               <h4 class="font-bold text-lg">Ran Mouri</h4>
               <p class="text-gray-700 mt-2">Information</p>
               <p class="text-sm text-gray-600">
-                Mouri Ran is a childhood friend of Kudou Shinichi. She is the
-                daughter of Mouri Kogorou and Kisaki Eri. Her biggest goal is to
-                reunite her parents, who separated when she was seven. Her best
-                friend is Suzuki Sonoko, who often teases her about her
-                relationship with Shinichi.
+                        โมริ รัน เป็นเพื่อนสมัยเด็กของคุโด้ ชินอิจิ และลูกสาวของโมริ โคโกโร่กับเอริ คิซากิ แม้พ่อแม่จะแยกทางกันตั้งแต่เธออายุ 7 ขวบ แต่รันยังคงหวังให้พวกเขากลับมาอยู่ด้วยกัน รันเป็นคนใจดี อ่อนโยน และคอยห่วงใยผู้อื่นเสมอ เธอมักปลอบโยนผู้คนที่เกี่ยวข้องกับเหตุอาชญากรรม แม้กระทั่งผู้ร้าย หากมีเหตุจำเป็น เธอจะใช้ทักษะคาราเต้เพื่อปกป้องผู้ที่เดือดร้อน รันมีความกล้าหาญและมีไหวพริบดี 
               </p>
             </div>
           </div>
@@ -147,8 +163,53 @@
     </div>
 
     <!-- Footer -->
-    <footer class="bg-blue-600 p-4 text-white text-center mt-6">
-      <p>&copy; 2024 Anime Page. All rights reserved.</p>
+    <footer class="bg-gray-800 p-6 text-gray-300">
+      <div
+        class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 text-center md:text-left"
+      >
+        <!-- Column 1: About Section -->
+        <div>
+          <h2 class="text-xl font-bold text-white mb-2">About Us</h2>
+          <p>
+            แพลตฟอร์มสำหรับผู้ที่ชื่นชอบอนิเมะเเละอยากนำเสนออนิเมะที่ชื่นชอบ
+          </p>
+        </div>
+        <!-- Column 2: Useful Links -->
+        <div>
+          <h2 class="text-xl font-bold text-white mb-2">Quick Links</h2>
+          <ul>
+            <li>
+              <a href="/index.html" class="hover:text-blue-400">หน้าหลัก</a>
+            </li>
+            <li>
+              <a href="/src/onepiece.html" class="hover:text-blue-400"
+                >onepiece</a
+              >
+            </li>
+            <li>
+              <a href="/src/demonslayer.html" class="hover:text-blue-400"
+                >demonslayer</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!-- Column 3: Contact Information -->
+        <div>
+          <h2 class="text-xl font-bold text-white mb-2">Contact Us</h2>
+          <div class="space-x-1">
+            <a
+              href="https://github.com/Doonminus2"
+              target="_blank"
+              class="text-white"
+            >
+              <i class="fab fa-github text-xl"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="mt-6 text-center text-gray-500 text-sm">
+        <p>&copy; 2024 Anime Page. All rights reserved.</p>
+      </div>
     </footer>
   </body>
 </html>
